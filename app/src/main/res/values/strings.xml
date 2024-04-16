@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Assigment1</string>
+    <string-array name="catagories">
+        <item>Select Item </item>
+        <item>Letter </item>
+        <item>Numbers </item>
+
+    </string-array>
+
+</resources>

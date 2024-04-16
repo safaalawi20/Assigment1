@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity_Login2"
+    android:orientation="vertical">
+
+
+               <TextView
+                    android:id="@+id/textView"
+                    android:layout_width="match_parent"
+                    android:layout_height="67dp"
+                    android:text="LOGIN "
+                    android:textSize="40dp"
+                    android:layout_margin="25dp"
+                    android:textColor="@color/purple"
+
+                  />
+
+                <TextView
+                    android:id="@+id/textView2"
+                    android:layout_width="match_parent"
+                    android:layout_height="67dp"
+                    android:text="Plaese Loggin to Your account "
+                    android:textSize="15dp"
+                    android:textColor="@color/purple"
+                    android:layout_marginLeft="20dp"
+                    />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="67dp"
+        android:text="User Name "
+        android:textSize="20dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="20dp"
+
+
+        />
+
+
+    <EditText
+        android:layout_marginTop="5dp"
+        android:id="@+id/editTextText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textEmailAddress"
+        android:layout_marginLeft="20dp"
+
+
+        />
+
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="match_parent"
+        android:layout_height="37dp"
+        android:text="Password "
+        android:textSize="20dp"
+        android:layout_marginTop="25dp"
+        android:layout_marginLeft="20dp"
+
+        />
+    <EditText
+        android:id="@+id/editTextText2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="text"
+        android:password="true"
+        android:layout_marginLeft="20dp"
+
+        />
+
+    <CheckBox
+        android:id="@+id/checkBox"
+        android:layout_width="match_parent"
+        android:layout_height="37dp"
+        android:text="Save Your Data"
+        tools:layout_editor_absoluteX="39dp"
+        tools:layout_editor_absoluteY="377dp"
+        android:textColor="@color/purple"
+        android:layout_marginLeft="20dp"
+        android:checked="false"
+
+        />
+
+
+    <TextView
+        android:id="@+id/textbox"
+        android:layout_width="match_parent"
+        android:layout_height="67dp"
+        android:text=" "
+        android:textSize="15dp"
+        android:textColor="@color/purple"
+        android:layout_marginLeft="20dp"
+        />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="214dp"
+        android:layout_height="88dp"
+        android:text="LOGIN"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:textSize="30dp"
+        />
+
+
+
+
+
+
+</LinearLayout>
